@@ -2,11 +2,11 @@
 
 def dilnik(num1, num2):
     num3 = num1 / num2
-    if num2 != 0:
-        print(num3)
-    else:
+    if num2 == 0:
         print('error')
+    else:
+        print(num3)
 
-dilnik(6.0, 2)
-dilnik(15.0,3)
-dilnik(45.0,0)
+num3 = dilnik(6.0, 0)
+num3 = dilnik(15.0,3)
+num3 = dilnik(45.0,0)
